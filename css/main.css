@@ -68,6 +68,9 @@ textarea {
 .py-30 {
   padding: 30px 0;
 }
+.py-50 {
+  padding: 50px 0;
+}
 .py-60 {
   padding: 60px 0;
 }
@@ -79,6 +82,9 @@ textarea {
 }
 .py-200 {
   padding: 200px 0;
+}
+.px-15 {
+  padding: 0 15px;
 }
 .px-20 {
   padding: 0 20px;
@@ -629,6 +635,64 @@ body {
 }
 .scrolling button:hover {
   background: #33ffff;
+}
+/******** BLOG PAGE  *********/
+.blog_content p {
+  font-size: 1.2em;
+}
+.blog_content button {
+  background-color: #000;
+  border: 2px solid #33ffff;
+  color: #33ffff;
+  font-size: 1.2em;
+}
+.blog_content button:hover {
+  background-color: #818b9b;
+}
+.blog_title h3 {
+  border-left: 5px solid #000;
+}
+.blog_title span {
+  height: 5px;
+  width: 10%;
+  background-color: #33ffff;
+  display: block;
+}
+.comment_list li {
+  font-size: 1.4em;
+  line-height: 15px;
+}
+.comment_list li:first-child,
+.comment_list li:nth-child(2) {
+  border-right: 2px solid #000;
+}
+.comment_list li:last-child {
+  color: #33ffff;
+}
+/******** SIDEBAR  *********/
+.categories li,
+.archives li {
+  font-size: 1.4em;
+}
+.categories .num,
+.archives .num {
+  background-color: #000;
+  color: #33ffff;
+}
+.recent_post h5 {
+  font-size: 1.3em;
+  border-bottom: 3px solid #33ffff;
+}
+.tag_clouds li {
+  font-size: 1.3em;
+  border: 2px solid #818b9b;
+  cursor: pointer;
+}
+.tag_clouds li a {
+  color: #000;
+}
+.tag_clouds li:hover {
+  background-color: #33ffff;
 }
 /******** RESPONSIVE DESIGN  *********/
 @media (max-width: 768px) {

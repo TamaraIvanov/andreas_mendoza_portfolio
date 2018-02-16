@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="shortcut icon" href="../img/Logo.jpg"/>
-    <title>Portfolio</title>
+    <title>Andreas Mendoza</title>
 
 
     <!-- Bootstrap CSS -->
