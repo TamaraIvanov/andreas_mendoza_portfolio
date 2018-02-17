@@ -717,18 +717,25 @@ body {
 
 /******** BLOG PAGE  *********/
 
+
+#main_container {
+  #header {
+    background: url("../img/Blog_header.jpg");
+    background-position: center;
+  }
+}
+
 .blog_content {
   p {
     font-size: 1.2em;
   }
-  button {
+  a {
     background-color: @black;
     border: 2px solid @light_blue;
     color: @light_blue;
     font-size: 1.2em;
     &:hover {
       background-color: @light_gray;
-
     }
   }
 }
@@ -792,11 +799,19 @@ body {
 /******** RESPONSIVE DESIGN  *********/
 
 
-@screen-xl: 1200px;
+@screen-xl: 1140px;
 @screen-md: 768px;
 @screen-sm: 576px;
 
 
+@media (max-width: @screen-xl) { }
+.recent_post {
+  > div {
+    &:last-child {
+      padding: 10px 0 0 !important;
+    }
+  }
+}
 @media (max-width: @screen-md) {
   .about_me_container {
     > div {
@@ -824,7 +839,6 @@ body {
       display: block;
     }
   }
-
   #nav_menu {
     position: absolute;
     right: 0;
@@ -868,6 +882,17 @@ body {
     bottom: 15px;
     left: 0;
   }
+  .comment_list {
+    li {
+      float: none !important;
+      padding: 5px 0 !important;
+      border-right: none !important;
+    }
+  }
+
+}
+@media (max-width: @screen-xl) {
+
 }
 
 @media (max-width: 440px) {

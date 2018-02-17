@@ -41,8 +41,12 @@
             $('html, body').animate({
                 scrollTop: $( '#' + data_id).offset().top
             }, 2000);
+        });
 
-
+        $(".here_me").click(function () {
+            $('html, body').animate({
+                scrollTop: $('#footer').offset().top
+            }, 2500);
         });
 
 

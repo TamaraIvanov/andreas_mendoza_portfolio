@@ -1,4 +1,4 @@
-<aside id="sidebar" class="col-md-4 float-right px-30">
+<aside id="sidebar" class="col-md-4 col-12 float-right px-30">
 
     <div class="categories py-30">
         <div class="blog_title my-3">
@@ -43,10 +43,10 @@
         <!---------  RECENT POST  ---------->
 
         <div class="recent_post clearfix py-20">
-           <div class="col-6 float-left pr-2 pl-0">
+           <div class="col-sm-5 col-md-12 col-xl-6 float-left pr-2 pl-0">
                <img class="w-100" src="../img/Recent-post-1.jpg">
            </div>
-            <div class="col-6 float-left pl-2 pr-0">
+            <div class="col-12 col-sm-5 col-md-12 col-xl-6 float-left pl-2 pr-0">
                 <h5 class="font-weight-bold">Montage house 3D model</h5>
                 <span class="d-block">By admin</span>
                 <span class="d-block">March 13,2017</span>
@@ -57,10 +57,10 @@
         <!---------  RECENT POST  ---------->
 
         <div class="recent_post clearfix py-20">
-            <div class="col-6 float-left pr-2 pl-0">
+            <div class="col-sm-5 col-md-12 col-xl-6 float-left pr-2 pl-0">
                 <img class="w-100" src="../img/Recent-post-2.jpg">
             </div>
-            <div class="col-6 float-left pl-2 pr-0">
+            <div class="col-sm-5 col-md-12 col-xl-6 float-left pl-2 pr-0">
                 <h5 class="font-weight-bold">Racing car 3D scheme</h5>
                 <span class="d-block">By admin</span>
                 <span class="d-block">March 13,2017</span>
@@ -70,10 +70,10 @@
         <!---------  RECENT POST  ---------->
 
         <div class="recent_post clearfix py-20">
-            <div class="col-6 float-left pr-2 pl-0">
+            <div class="col-sm-5 col-md-12 col-xl-6 float-left pr-2 pl-0">
                 <img class="w-100" src="../img/Recent-post-3.jpg">
             </div>
-            <div class="col-6 float-left pl-2 pr-0">
+            <div class="col-sm-5 col-md-12 col-xl-6 float-left pl-2 pr-0">
                 <h5 class="font-weight-bold">Futuristic construction</h5>
                 <span class="d-block">By admin</span>
                 <span class="d-block">March 13,2017</span>
@@ -83,10 +83,10 @@
         <!---------  RECENT POST  ---------->
 
         <div class="recent_post clearfix py-20">
-            <div class="col-6 float-left pr-2 pl-0">
+            <div class="col-sm-5 col-md-12 col-xl-6 float-left pr-2 pl-0">
                 <img class="w-100" src="../img/Recent-post-4.jpg">
             </div>
-            <div class="col-6 float-left pl-2 pr-0">
+            <div class="col-sm-5 col-md-12 col-xl-6 float-left pl-2 pr-0">
                 <h5 class="font-weight-bold">Graphic interior planning</h5>
                 <span class="d-block">By admin</span>
                 <span class="d-block">March 13,2017</span>
@@ -127,7 +127,6 @@
         </ul>
     </div>
 
-
     <div class="instagrams py-30">
         <div class="blog_title my-3">
             <h3 class="font-weight-bold m-0 px-2">Instagram</h3>
@@ -144,7 +143,6 @@
         </div>
     </div>
 
-
     <div class="tag_clouds py-30">
         <div class="blog_title my-3">
             <h3 class="font-weight-bold m-0 px-2">Tag Clouds</h3>
@@ -160,8 +158,4 @@
            <li class="float-left my-2 mr-2 pl-0 py-2 px-3"><a class="py-1 px-2" href="#">Branding</a></li>
        </ul>
     </div>
-
-
-
-
 </aside>

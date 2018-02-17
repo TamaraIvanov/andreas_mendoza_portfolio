@@ -637,16 +637,20 @@ body {
   background: #33ffff;
 }
 /******** BLOG PAGE  *********/
+#main_container #header {
+  background: url("../img/Blog_header.jpg");
+  background-position: center;
+}
 .blog_content p {
   font-size: 1.2em;
 }
-.blog_content button {
+.blog_content a {
   background-color: #000;
   border: 2px solid #33ffff;
   color: #33ffff;
   font-size: 1.2em;
 }
-.blog_content button:hover {
+.blog_content a:hover {
   background-color: #818b9b;
 }
 .blog_title h3 {
@@ -695,6 +699,9 @@ body {
   background-color: #33ffff;
 }
 /******** RESPONSIVE DESIGN  *********/
+.recent_post > div:last-child {
+  padding: 10px 0 0 !important;
+}
 @media (max-width: 768px) {
   .about_me_container > div {
     padding: 15px 0 !important;
@@ -754,6 +761,11 @@ body {
     width: 100%;
     bottom: 15px;
     left: 0;
+  }
+  .comment_list li {
+    float: none !important;
+    padding: 5px 0 !important;
+    border-right: none !important;
   }
 }
 @media (max-width: 440px) {
