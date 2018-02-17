@@ -64,17 +64,17 @@
 
     <div class="w-1170 px-30 row">
 
-        <div id="blog_container" class="clearfix py-150">
+        <div id="single_post_container" class="clearfix py-150">
 
             <div class="col-md-7 float-left">
 
 
                 <!-------- BLOG  --------->
 
-                <div class="blog_content  py-50">
+                <div class="blog_content py-50">
                     <img class="w-100" src="../img/Post-1.jpg">
                     <div class="blog_title my-30">
-                         <h3 class="font-weight-bold m-0 px-2">New 3D interior design</h3>
+                        <h3 class="font-weight-bold m-0 px-2">New 3D interior design</h3>
                         <span class=""></span>
                     </div>
                     <ul class="comment_list clearfix">
@@ -87,53 +87,82 @@
                         Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
                         Duis eget vehicula tellus.
                     </p>
-                    <a class="float-right py-1 px-4" href="singl_post_3D_interior.php">Read more</a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget metus ex.
+                        Nulla odio est, tincidunt ac dignissim commodo, tempor vel lacus. Nulla eu mattis neque.
+                        Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
+                        Duis eget vehicula tellus.
+                    </p>
                 </div>
 
-
-                <!-------- BLOG  --------->
-
-                <div class="blog_content py-50">
-                    <img class="w-100" src="../img/Post-2.jpg">
+                <div class="comments_container py-30 clearfix">
                     <div class="blog_title my-30">
-                        <h3 class="font-weight-bold m-0 px-2">Futuristic environment</h3>
+                        <h3 class="font-weight-bold m-0 px-2">Comments</h3>
                         <span class=""></span>
                     </div>
-                    <ul class="comment_list clearfix">
-                        <li class="float-left pr-2">By admin</li>
-                        <li class="float-left px-2">March 13,2017</li>
-                        <li class="float-left px-2">10 comments</li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget metus ex.
-                        Nulla odio est, tincidunt ac dignissim commodo, tempor vel lacus. Nulla eu mattis neque.
-                        Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
-                        Duis eget vehicula tellus.
-                    </p>
-                    <a class="float-right py-1 px-4" href="#">Read more</a>
 
+                    <div class="comment_content float-left col-12 py-15">
+                        <div class="comment_details float-left">
+                            <span class="d-block">John Doe</span>
+                            <span class="d-block">March 13,2017 at 4:30 pm</span>
+                        </div>
+                        <p class="float-left py-3">
+                            Duis accumsan id nisi eget rutrum. Nunc ut lareet ex.
+                            Proin pellentesque faucibus metus, eget lacinia libero tincidunt ac.
+                            Phasellus id mi nibh. Phasellus sagittis interdum turpis a finibus.
+                        </p>
+
+                        <button class="reply_btn float-right py-1 px-4" type="button">Reply</button>
+                    </div>
+
+                    <div class="comment_content float-right col-11 py-15">
+                        <div class="comment_details float-left">
+                            <span class="d-block">John Doe</span>
+                            <span class="d-block">March 13,2017 at 4:30 pm</span>
+                        </div>
+                        <p class="float-left py-3">
+                            Duis accumsan id nisi eget rutrum. Nunc ut lareet ex.
+                            Proin pellentesque faucibus metus, eget lacinia libero tincidunt ac.
+                            Phasellus id mi nibh. Phasellus sagittis interdum turpis a finibus.
+                        </p>
+
+                        <button class="reply_btn float-right py-1 px-4" type="button">Reply</button>
+                    </div>
+
+                    <div class="comment_content float-left col-12 py-15">
+                        <div class="comment_details float-left">
+                            <span class="d-block">John Doe</span>
+                            <span class="d-block">March 13,2017 at 4:30 pm</span>
+                        </div>
+                        <p class="float-left py-3">
+                            Duis accumsan id nisi eget rutrum. Nunc ut lareet ex.
+                            Proin pellentesque faucibus metus, eget lacinia libero tincidunt ac.
+                            Phasellus id mi nibh. Phasellus sagittis interdum turpis a finibus.
+                        </p>
+
+                        <button class="reply_btn float-right py-1 px-4" type="button">Reply</button>
+                    </div>
                 </div>
 
-                <!-------- BLOG  --------->
 
-                <div class="blog_content py-50">
-                    <img class="w-100" src="../img/Post-3.jpg">
+                <div class="comments_leave_container py-30 clearfix">
                     <div class="blog_title my-30">
-                        <h3 class="font-weight-bold m-0 px-2">A digital scheme of a racing car</h3>
+                        <h3 class="font-weight-bold m-0 px-2">Leave a Comment</h3>
                         <span class=""></span>
                     </div>
-                    <ul class="comment_list clearfix">
-                        <li class="float-left pr-2">By admin</li>
-                        <li class="float-left px-2">March 13,2017</li>
-                        <li class="float-left px-2">10 comments</li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget metus ex.
-                        Nulla odio est, tincidunt ac dignissim commodo, tempor vel lacus. Nulla eu mattis neque.
-                        Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
-                        Duis eget vehicula tellus.
-                    </p>
-                    <a class="float-right py-1 px-4" href="#">Read more</a>
-
                 </div>
+
+                <form class="comment_form">
+                    <input class="w-100 my-4" type="text" placeholder="Name"/>
+                    <input class="w-100 my-4" type="text" placeholder="Email"/>
+                    <input class="w-100 my-4" type="text" placeholder="Message"/>
+
+                    <button class="js-send_msg text-uppercase float-right py-1 px-4" type="submit">send</button>
+                </form>
+
+
+
+
 
             </div>
 
@@ -143,8 +172,8 @@
 
     <?php include "../includes/footer.php";?>
 
-<script src="../js/jquery-3.1.1.js"></script>
-<script src="../js/main.js"></script>
+    <script src="../js/jquery-3.1.1.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>
 </html>

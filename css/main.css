@@ -513,7 +513,8 @@ body {
 .contact_wrapper h4 {
   color: #33ffff;
 }
-#contact_form input {
+#contact_form input,
+.comment_form input {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #33ffff;
@@ -521,16 +522,19 @@ body {
   height: 50px;
   font-size: 1.6em;
 }
-#contact_form input::placeholder {
+#contact_form input::placeholder,
+.comment_form input::placeholder {
   color: #33ffff;
 }
-#contact_form textarea {
+#contact_form textarea,
+.comment_form textarea {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #33ffff;
   color: #33ffff;
 }
-#contact_form textarea::placeholder {
+#contact_form textarea::placeholder,
+.comment_form textarea::placeholder {
   color: #33ffff;
 }
 .js-send_msg {
@@ -637,7 +641,7 @@ body {
   background: #33ffff;
 }
 /******** BLOG PAGE  *********/
-#main_container #header {
+#main_container .blog_header {
   background: url("../img/Blog_header.jpg");
   background-position: center;
 }
@@ -672,6 +676,42 @@ body {
 }
 .comment_list li:last-child {
   color: #33ffff;
+}
+/******** SINGLE POST PAGE  *********/
+.comment_content {
+  font-size: 1.4em;
+}
+.comment_content span:first-child {
+  color: #33ffff;
+}
+.comment_content .reply_btn {
+  background-color: #000;
+  border: 2px solid #33ffff;
+  color: #33ffff;
+  font-size: 1em;
+}
+.comment_content .reply_btn:hover {
+  background-color: #818b9b;
+}
+.comment_form input::placeholder {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.comment_form button {
+  color: #33ffff;
+  font-size: 1.3em;
+  margin-top: 60px;
+  border: 2px solid #33ffff;
+  transition: ease-out 1s;
+  background-color: #000;
+}
+.comment_form button:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.1);
 }
 /******** SIDEBAR  *********/
 .categories li,
