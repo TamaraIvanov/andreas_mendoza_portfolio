@@ -134,6 +134,9 @@ textarea {
 .left-100 {
   left: -100%;
 }
+.left-150 {
+  left: -150%;
+}
 .right0 {
   right: 0;
 }
@@ -606,6 +609,9 @@ body {
     color: @light_blue;
   }
 }
+.contact_content{
+  overflow: hidden;
+}
 #contact_form,
 .comment_form {
   input {
@@ -615,6 +621,7 @@ body {
     color: @light_blue;
     height: 50px;
     font-size: 1.6em;
+    transition: 1.5s ease;
     &::placeholder {
       color: @light_blue;
     }

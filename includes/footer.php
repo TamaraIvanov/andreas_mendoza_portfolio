@@ -5,19 +5,19 @@
             <h3 class="text-uppercase font-weight-bold text-center">get in touch</h3>
         </div>
 
-        <div class="contact_wrapper row py-150">
+        <div class="contact_container row py-150">
 
             <div class="contact_wrapper clearfix">
 
-                <div class="col-md-5 float-left my-5">
+                <div class="contact_content col-md-5 float-left my-5">
                     <h4 >Contact Me</h4>
 
-                    <form id="contact_form" class="py-60">
-                        <input class="w-100 my-4" type="text" placeholder="Name"/>
-                        <input class="w-100 my-4" type="text" placeholder="Email"/>
-                        <input class="w-100 my-4" type="text" placeholder="Message"/>
+                    <form id="contact_form" class="py-60 clearfix">
+                        <input class="name w-100 my-4 left-150 relative" type="text" placeholder="Name"/>
+                        <input class="w-100 my-4 left-150 relative" type="text" placeholder="Email"/>
+                        <input class="w-100 my-4 left-150 relative" type="text" placeholder="Message"/>
 
-                        <button class="js-send_msg text-uppercase float-right py-1 px-4" type="submit">submit</button>
+                        <button class="js-send_msg text-uppercase float-right py-1 px-4 right-100 relative" type="submit">submit</button>
                     </form>
                 </div>
 

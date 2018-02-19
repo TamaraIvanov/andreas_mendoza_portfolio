@@ -71,12 +71,12 @@
 
             skillsEffect(windowTop, windowBottom);
             skillsFadeEffect(windowTop, windowBottom);
+            contactFadeEffect(windowTop, windowBottom);
+
         }
 
 
         /************  SKILLS EFFECTS **************/
-
-
 
         function skillsEffect(windowTop, windowBottom) {
             var $skills = $('#js-skills');
@@ -91,19 +91,41 @@
             }
         }
 
-        /************  EFFECTS IN ABOT ME SECTION **************/
+        /************  EFFECTS IN ABOUT ME SECTION **************/
 
         function skillsFadeEffect(windowTop, windowBottom) {
             var $aboutSkills = $('.about_me_container');
             var aboutSkillsTop = $aboutSkills.offset().top;
-            var aboutSkillsBottom = aboutSkillsTop + $aboutSkills.height() + $window.outerHeight()/12;
+            var aboutSkillsBottom = aboutSkillsTop + $aboutSkills.height() + $window.outerHeight()/15;
 
-            console.log($aboutSkills.height());
             if (aboutSkillsBottom  <= windowBottom && aboutSkillsTop >= windowTop) {
                 $aboutSkills.find(".about_me_description").css({"left": 0});
             }
         }
+
+        /************  EFFECTS IN FOOTER **************/
+
+        function contactFadeEffect(windowTop, windowBottom) {
+            var $contactForm = $('#contact_form');
+            var contactFormTop = $contactForm.offset().top;
+            var contactFormBottom = contactFormTop + $contactForm.height() + $window.outerHeight()/15;
+
+            if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop) {
+                $contactForm.find("input").css({"left": 0});
+                $contactForm.find("button").css({"right": 0});
+            }
+        }
+
+
+
     });
+
+
+
+
+
+
+    
 
     function skillsIncreasing(element, value) {
         element.find('.scale_value').animate({width: value+"%"}, 1500);
