@@ -128,8 +128,14 @@ textarea {
 .left0 {
   left: 0;
 }
+.left-100 {
+  left: -100%;
+}
 .right0 {
   right: 0;
+}
+.right-100 {
+  right: -100%;
 }
 .w-1170 {
   width: 100%;
@@ -261,6 +267,7 @@ body {
 /******* ABOUT ME SECTION *********/
 #about_me {
   padding: 150px 30px;
+  overflow: hidden;
 }
 #about_me h3 {
   font-size: 2.5em;
@@ -268,6 +275,21 @@ body {
 #about_me p {
   font-size: 1.2em;
 }
+.about_me_description,
+#js-skills {
+  transition: all 1s ease;
+}
+/*
+.shake {
+  animation: shake 1s;
+}
+@keyframes shake {
+  0%   {left: 0}
+  25%  {left: 30px}
+  50%  {transform: rotate(15deg)}
+}
+
+*/
 .skills_scale {
   height: 10px;
   background-color: #c8c8c8;
@@ -275,6 +297,7 @@ body {
 .scale_value {
   height: 10px;
   background-color: #33ffff;
+  width: 0;
 }
 /******* MY WORK SECTION *********/
 #my_work {

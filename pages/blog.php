@@ -109,8 +109,7 @@
                         Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
                         Duis eget vehicula tellus.
                     </p>
-                    <a class="float-right py-1 px-4" href="#">Read more</a>
-
+                    <a class="float-right py-1 px-4" href="singl_post_3D_interior.php">Read more</a>
                 </div>
 
                 <!-------- BLOG  --------->
@@ -131,10 +130,8 @@
                         Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
                         Duis eget vehicula tellus.
                     </p>
-                    <a class="float-right py-1 px-4" href="#">Read more</a>
-
+                    <a class="float-right py-1 px-4" href="singl_post_3D_interior.php">Read more</a>
                 </div>
-
             </div>
 
             <?php include "../includes/sidebar.php";?>
