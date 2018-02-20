@@ -68,10 +68,10 @@
             var windowTop = $window.scrollTop();
             var windowBottom = windowTop + $window.outerHeight();
 
-
             skillsEffect(windowTop, windowBottom);
             skillsFadeEffect(windowTop, windowBottom);
             contactFadeEffect(windowTop, windowBottom);
+            workflowFadeEffect(windowTop, windowBottom);
 
         }
 
@@ -116,6 +116,65 @@
             }
         }
 
+        /********  RESPONSIVE CHANGES  ********/
+
+        var windowSize = $(window).width();
+
+        $(window).resize(function() {
+            workflowFadeEffect(windowTop, windowBottom, windowSize);
+
+
+        });
+
+
+
+        function workflowFadeEffect(windowTop, windowBottom, width) {
+
+
+            $('.work_process_content').each(function () {
+
+                var $this = $(this);
+
+                var contentTop = $this.offset().top;
+                var contentBottom = contentTop + $this.height() + $window.outerHeight()/4;
+
+                if (contentBottom  <= windowBottom && contentTop >= windowTop) {
+
+                   var data = $this.data("type");
+
+                   if(data === "left"){
+                       $this.find(".process_title").css({"left": 0});
+                       $this.find(".process_description").css({"right": 0});
+                   } else {
+                       $this.find(".process_title").css({"right": 0});
+                       $this.find(".process_description").css({"left": 0});
+                   }
+
+                    setInterval(function(){
+                        $this.find(".line_vertical_upper").css({"visibility": "visible"});
+                        if (width <= 770) {
+                            $this.find(".line_horizontal").css({"width": "50%"});
+                        } else {
+                            $this.find(".line_horizontal").css({"width": "90.2%"});
+                        }
+                    }, 1000);
+
+                    setInterval(function(){
+                        $this.find(".line_vertical_bottom").css({"visibility": "visible"});
+                    }, 4000);
+                }
+            });
+        }
+
+
+
+
+
+
+
+
+
+
 
 
     });
@@ -125,7 +184,7 @@
 
 
 
-    
+
 
     function skillsIncreasing(element, value) {
         element.find('.scale_value').animate({width: value+"%"}, 1500);
