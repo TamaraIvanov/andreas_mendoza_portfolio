@@ -128,6 +128,9 @@ textarea {
 .top0 {
   top: 0;
 }
+.top-100 {
+  top: -100%;
+}
 .left0 {
   left: 0;
 }
@@ -658,7 +661,9 @@ body {
     color: @light_blue;
   }
 }
+
 .contact_wrapper {
+  overflow: hidden;
   h4 {
     color: @light_blue;
   }
@@ -703,6 +708,11 @@ body {
     -ms-transform: scale(1.3);
     transform: scale(1.1);
   }
+}
+#find_me {
+  transition: 3s ease;
+  -webkit-transition: 3s ease;
+  top: -100%;
 }
 #address {
   span, a {

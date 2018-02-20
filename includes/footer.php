@@ -10,7 +10,7 @@
             <div class="contact_wrapper clearfix">
 
                 <div class="contact_content col-md-5 float-left my-5">
-                    <h4 >Contact Me</h4>
+                    <h4 class="position-relative left-100" >Contact Me</h4>
 
                     <form id="contact_form" class="py-60 clearfix">
                         <input class="name w-100 my-4 left-150 relative" type="text" placeholder="Name"/>
@@ -21,8 +21,8 @@
                     </form>
                 </div>
 
-                <div class="col-md-5 float-right my-5">
-                    <h4 >Find Me</h4>
+                <div id="find_me" class="col-md-5 float-right my-5 position-relative">
+                    <h4>Find Me</h4>
 
                     <address id="address" class="py-60">
                         <span class="street d-block my-5">1313 Brickell Ave, Miami, FL</span>

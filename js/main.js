@@ -106,12 +106,14 @@
         /************  EFFECTS IN FOOTER **************/
 
         function contactFadeEffect(windowTop, windowBottom) {
-            var $contactForm = $('#contact_form');
+            var $contactForm = $(".contact_container");
             var contactFormTop = $contactForm.offset().top;
-            var contactFormBottom = contactFormTop + $contactForm.height() + $window.outerHeight()/15;
+            var contactFormBottom = contactFormTop + $contactForm.height() + $window.outerHeight()/4;
 
             if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop) {
+                $contactForm.find("#find_me").css({"top": 0});
                 $contactForm.find("input").css({"left": 0});
+                $contactForm.find(".contact_content h4").css({"left": 0});
                 $contactForm.find("button").css({"right": 0});
             }
         }
