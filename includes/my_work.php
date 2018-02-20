@@ -7,8 +7,8 @@
         <div class="row">
 
             <div class="col-md-3 col-12 float-left my-4">
-                <button type="button" class="js_filter_btn js_drop_down_btn_menu float-right relative no-display"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
-                <ul class="filter_rooms js_drop_down">
+                <button type="button" class="js_filter_btn js-drop-btn float-right relative no-display"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+                <ul class="filter_rooms js_drop_down js-drop-list">
                     <li class="text-uppercase mt-4 py-2">all</li>
                     <li class="text-uppercase mt-4 py-2">illustration</li>
                     <li class="text-uppercase mt-4 py-2">web apps</li>

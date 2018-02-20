@@ -11,7 +11,6 @@
 
         /*******  SCROLLING BUTTONS  *******/
 
-
         var scrollBtn = $(".scrolling").find("button");
 
         var data_id;
@@ -23,7 +22,6 @@
             $('html, body').animate({
                 scrollTop: $( '#' + data_id).offset().top
             }, 2000);
-
         });
 
         /*******  SCROLL ON TOP  *******/
@@ -51,10 +49,47 @@
         });
 
         $window.scroll(function() {
-
             scrollingEffect();
-
         });
+
+        /************  DROP LIST  *************/
+
+        var dropList = $(".js-drop-list");
+        var mainDropList = $(".js-main-drop-list");
+        var dropBtn =  $(".js-drop-btn");
+
+        dropBtn.click(function () {
+            $(this).next(".js-drop-list").slideToggle(500);
+        });
+
+        dropBtn.click(function(e) {
+            e.stopPropagation();
+        });
+
+        $('body').click(function () {
+            if(windowSize <= 750) {
+                mainDropList.slideUp(400);
+            }
+            if(windowSize <= 576) {
+                dropList.slideUp(400);
+            }
+        });
+
+        /************  SOCIAL ICONS EFFECTS IN HEADER  *************/
+
+        $(".social_icons_wrapper").hover(function () {
+            $(this).addClass("social-visible");
+            $(this).siblings().removeClass("social-visible");
+
+        }, function(){
+            $(this).removeClass("social-visible");
+        });
+
+
+
+
+        /********** FUNCTIONS ON SCROLL  ************/
+
 
 
         var windowTop = $window.scrollTop();
@@ -108,7 +143,7 @@
         function contactFadeEffect(windowTop, windowBottom) {
             var $contactForm = $(".contact_container");
             var contactFormTop = $contactForm.offset().top;
-            var contactFormBottom = contactFormTop + $contactForm.height() + $window.outerHeight()/4;
+            var contactFormBottom = contactFormTop + $contactForm.height() + $window.outerHeight()/20;
 
             if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop) {
                 $contactForm.find("#find_me").css({"top": 0});
@@ -123,20 +158,15 @@
         var windowSize = $(window).width();
 
         $(window).resize(function() {
-            workflowFadeEffect(windowTop, windowBottom, windowSize);
-
-
+            workflowFadeEffect(windowTop, windowBottom);
         });
 
 
 
-        function workflowFadeEffect(windowTop, windowBottom, width) {
-
+        function workflowFadeEffect(windowTop, windowBottom) {
 
             $('.work_process_content').each(function () {
-
                 var $this = $(this);
-
                 var contentTop = $this.offset().top;
                 var contentBottom = contentTop + $this.height() + $window.outerHeight()/4;
 
@@ -154,12 +184,17 @@
 
                     setInterval(function(){
                         $this.find(".line_vertical_upper").css({"visibility": "visible"});
-                        if (width <= 770) {
-                            $this.find(".line_horizontal").css({"width": "50%"});
+
+                        if (windowSize <= 576) {
+                            $this.find(".line_horizontal").addClass("line_horizontal100");
+                        }
+                        if (windowSize <= 770) {
+                            $this.find(".line_horizontal").addClass("line_horizontal50");
                         } else {
-                            $this.find(".line_horizontal").css({"width": "90.2%"});
+                            $this.find(".line_horizontal").addClass("line_horizontal90");
                         }
                     }, 1000);
+                   console.log(windowSize);
 
                     setInterval(function(){
                         $this.find(".line_vertical_bottom").css({"visibility": "visible"});

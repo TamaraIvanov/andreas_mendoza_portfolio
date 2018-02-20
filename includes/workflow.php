@@ -30,7 +30,7 @@
                             </div>
                         </div>
 
-                        <div class="process_description col-md-4 col-sm-6 col-12 float-left d-flex py-60 right-100 position-relative">
+                        <div class="process_description col-md-4 col-sm-6 col-12 float-left d-flex py-60 right-150 position-relative">
                             <p>Sed nec tincidunt arcu. Etiam dui felis, ullamcorper non porta vel, mattis vel turpis.</p>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                             </div>
                         </div>
 
-                        <div class="process_description col-md-4 col-sm-6 col-12 float-left d-flex py-60 left-100 position-relative">
+                        <div class="process_description col-md-4 col-sm-6 col-12 float-left d-flex py-60 left-150 position-relative">
                             <p>Sed nec tincidunt arcu. Etiam dui felis, ullamcorper non porta vel, mattis vel turpis.</p>
                         </div>
 
@@ -110,7 +110,7 @@
                             </div>
                         </div>
 
-                        <div class="process_description col-md-4 col-sm-6 col-12 float-left d-flex py-60 right-100 position-relative">
+                        <div class="process_description col-md-4 col-sm-6 col-12 float-left d-flex py-60 right-150 position-relative">
                             <p>Sed nec tincidunt arcu. Etiam dui felis, ullamcorper non porta vel, mattis vel turpis.</p>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
 
-                        <div class="process_description col-md-4 col-sm-6 col-12 float-left d-flex py-60 left-100 position-relative">
+                        <div class="process_description col-md-4 col-sm-6 col-12 float-left d-flex py-60 left-150 position-relative">
                             <p>Sed nec tincidunt arcu. Etiam dui felis, ullamcorper non porta vel, mattis vel turpis.</p>
                         </div>
 
