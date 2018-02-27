@@ -83,32 +83,41 @@
 
     <div class="scrolling position-fixed">
         <ul class="">
-            <li class="m-1">
-                <button type="button" data-id="header"></button>
+            <li class="m-1 clearfix">
+                <button class="float-right my-1" type="button" data-id="header"></button>
+                <span class="float-right mr-2 py-1 px-2">My name</span>
             </li>
-            <li class="m-1">
-                <button type="button" data-id="about_me"></button>
+            <li class="m-1 clearfix">
+                <button class="float-right my-1" type="button" data-id="about_me"></button>
+                <span class="float-right mr-2 py-1 px-2">About me</span>
             </li>
-            <li class="m-1">
-                <button type="button" data-id="my_work"></button>
+            <li class="m-1 clearfix">
+                <button class="float-right my-1" type="button" data-id="my_work"></button>
+                <span class="float-right mr-2 py-1 px-2">My work</span>
             </li>
-            <li class="m-1">
-                <button type="button" data-id="workflow"></button>
+            <li class="m-1 clearfix">
+                <button class="float-right my-1" type="button" data-id="workflow"></button>
+                <span class="float-right mr-2 py-1 px-2">Workflow</span>
             </li>
-            <li class="m-1">
-                <button type="button" data-id="testimonial"></button>
+            <li class="m-1 clearfix">
+                <button class="float-right my-1" type="button" data-id="testimonial"></button>
+                <span class="float-right mr-2 py-1 px-2">Testimonial</span>
             </li>
-            <li class="m-1">
-                <button type="button" data-id="services"></button>
+            <li class="m-1 clearfix">
+                <button class="float-right my-1" type="button" data-id="services"></button>
+                <span class="float-right mr-2 py-1 px-2">Services</span>
             </li>
-            <li class="m-1">
-                <button type="button" data-id="footer"></button>
+            <li class="m-1 clearfix">
+                <button class="float-right my-1" type="button" data-id="footer"></button>
+                <span class="float-right mr-2 py-1 px-2">Contact</span>
             </li>
         </ul>
     </div>
 </div>
 
+
 <script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/slick/slick.min.js"></script>
 <script src="../js/main.js"></script>
 
 </body>

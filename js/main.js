@@ -6,8 +6,18 @@
 
     $(document).ready(function() {
 
+        testimonialSlider();
 
         var $window = $(window);
+
+        /********  RESPONSIVE CHANGES  ********/
+
+        var windowSize = $(window).width();
+
+        $(window).resize(function() {
+            workflowFadeEffect(windowTop, windowBottom);
+        });
+
 
         /*******  SCROLLING BUTTONS  *******/
 
@@ -143,7 +153,7 @@
         function contactFadeEffect(windowTop, windowBottom) {
             var $contactForm = $(".contact_container");
             var contactFormTop = $contactForm.offset().top;
-            var contactFormBottom = contactFormTop + $contactForm.height() + $window.outerHeight()/20;
+            var contactFormBottom = contactFormTop + $contactForm.height() + $window.outerHeight()/100;
 
             if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop) {
                 $contactForm.find("#find_me").css({"top": 0});
@@ -152,14 +162,6 @@
                 $contactForm.find("button").css({"right": 0});
             }
         }
-
-        /********  RESPONSIVE CHANGES  ********/
-
-        var windowSize = $(window).width();
-
-        $(window).resize(function() {
-            workflowFadeEffect(windowTop, windowBottom);
-        });
 
 
 
@@ -193,32 +195,17 @@
                         } else {
                             $this.find(".line_horizontal").addClass("line_horizontal90");
                         }
-                    }, 1000);
-                   console.log(windowSize);
-
+                    }, 500);
+                    
                     setInterval(function(){
                         $this.find(".line_vertical_bottom").css({"visibility": "visible"});
-                    }, 4000);
+                    }, 2500);
                 }
+
             });
         }
 
-
-
-
-
-
-
-
-
-
-
-
     });
-
-
-
-
 
 
 
@@ -235,6 +222,37 @@
             element.find('strong').text(number);
         }, 15);
     }
+
+
+    function testimonialSlider() {
+
+        $("#testimonial_slider").slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            dots: false,
+            speed: 1000,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 965,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+
+                }
+
+            ]
+        });
+    }
+
 
 
 
