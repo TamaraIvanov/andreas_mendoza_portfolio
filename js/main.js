@@ -155,7 +155,7 @@
             var contactFormTop = $contactForm.offset().top;
             var contactFormBottom = contactFormTop + $contactForm.height() + $window.outerHeight()/100;
 
-            if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop) {
+            if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop-200) {
                 $contactForm.find("#find_me").css({"top": 0});
                 $contactForm.find("input").css({"left": 0});
                 $contactForm.find(".contact_content h4").css({"left": 0});
@@ -184,9 +184,12 @@
                        $this.find(".process_description").css({"left": 0});
                    }
 
+
                     setInterval(function(){
                         $this.find(".line_vertical_upper").css({"visibility": "visible"});
+                    }, 100);
 
+                    setInterval(function(){
                         if (windowSize <= 576) {
                             $this.find(".line_horizontal").addClass("line_horizontal100");
                         }
@@ -195,11 +198,11 @@
                         } else {
                             $this.find(".line_horizontal").addClass("line_horizontal90");
                         }
-                    }, 500);
+                    }, 600);
                     
                     setInterval(function(){
                         $this.find(".line_vertical_bottom").css({"visibility": "visible"});
-                    }, 2500);
+                    }, 1800);
                 }
 
             });
@@ -242,6 +245,33 @@
                 },
                 {
                     breakpoint: 965,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+
+                }
+
+            ]
+        });
+
+        $("#services_slider").slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            dots: false,
+            speed: 1000,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    speed: 700,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1

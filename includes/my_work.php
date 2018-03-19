@@ -1,5 +1,5 @@
-<section id="my_work" class="py-150">
-    <div class=" w-1170 clearfix">
+<section id="my_work" class="clearfix position-relative">
+    <div class="w-1170 clearfix py-100">
         <div class="w-100 py-60">
             <h3 class="text-uppercase font-weight-bold text-center my-50">my work</h3>
         </div>
@@ -68,4 +68,11 @@
             </div>
         </div>
     </div>
+
+    <div class="top0 position-relative">
+        <div class="corner corner_left"></div>
+        <div class="corner corner_right"></div>
+    </div>
+
+
 </section>

@@ -3,9 +3,9 @@
 
 <body>
 
-<div id="main_container">
 
-    <header id="header" class="blog_header py-5">
+
+    <header id="header" class="blog_header py-5 position-relative">
         <div id="person" class="w-1170 px-30 clearfix">
 
             <div class="nav_menu_wrapper clearfix relative">
@@ -34,30 +34,32 @@
             <div class="float-left w-100 my-100">
                 <button class="here_me text-uppercase font-weight-bold px-4 py-1">hire me</button>
             </div>
-
         </div>
 
         <div class="social float-right absolute">
             <div class="fb_wrapper social_icons_wrapper my-1 d-flex">
-                <div class="fb_icon social_icons float-left px-2"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></div>
+                <div class="fb_icon social_icons float-left px-2"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></div>
                 <span class="follow_me float-left p-1">Following me</span>
             </div>
 
             <div class="fb_wrapper social_icons_wrapper my-1 d-flex">
-                <div class="twitter_icon social_icons float-left px-2"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></div>
+                <div class="twitter_icon social_icons float-left px-2"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></div>
                 <span class="follow_me float-left p-1">Following me</span>
             </div>
 
             <div class="fb_wrapper social_icons_wrapper my-1 d-flex">
-                <div class="linkedin social_icons float-left px-2"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></div>
+                <div class="linkedin social_icons float-left px-2"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></div>
                 <span class="follow_me float-left p-1">Following me</span>
             </div>
 
             <div class="fb_wrapper social_icons_wrapper my-1 d-flex">
-                <div class="instagram social_icons float-left px-2"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></div>
+                <div class="instagram social_icons float-left px-2"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></div>
                 <span class="follow_me float-left p-1">Following me</span>
             </div>
         </div>
+
+        <div class="corner corner_left"></div>
+        <div class="corner corner_right"></div>
     </header>
 
 
@@ -86,7 +88,7 @@
                         Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
                         Duis eget vehicula tellus.
                     </p>
-                    <a class="float-right py-1 px-4" href="singl_post_3D_interior.php">Read more</a>
+                    <a class="float-right py-1 px-4" href="single_post_3D_interior.php">Read more</a>
                 </div>
 
 
@@ -108,7 +110,7 @@
                         Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
                         Duis eget vehicula tellus.
                     </p>
-                    <a class="float-right py-1 px-4" href="singl_post_3D_interior.php">Read more</a>
+                    <a class="float-right py-1 px-4" href="single_post_3D_interior.php">Read more</a>
                 </div>
 
                 <!-------- BLOG  --------->
@@ -129,16 +131,18 @@
                         Suspendisse porttitor ac urna a imperdiet. Curabitur scelerisque purus ante, sed euismod nunc rutrum eu.
                         Duis eget vehicula tellus.
                     </p>
-                    <a class="float-right py-1 px-4" href="singl_post_3D_interior.php">Read more</a>
+                    <a class="float-right py-1 px-4" href="single_post_3D_interior.php">Read more</a>
                 </div>
             </div>
 
             <?php include "../includes/sidebar.php";?>
         </div>
     </div>
-
     <?php include "../includes/footer.php";?>
+
+
     <script src="../js/jquery-3.1.1.js"></script>
+    <script src="../js/slick/slick.min.js"></script>
     <script src="../js/main.js"></script>
 
 </body>

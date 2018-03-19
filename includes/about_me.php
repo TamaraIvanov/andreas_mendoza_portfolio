@@ -1,13 +1,13 @@
-<section id="about_me" class="clearfix">
-    <div class="px-30 w-1170">
+<section id="about_me" class="clearfix position-relative">
+    <div class="about_me_wrapper w-1170 mb-5">
 
         <div class="w-100">
             <h3 class="text-uppercase font-weight-bold text-center">about me</h3>
         </div>
 
-        <div class="about_me_container row">
+        <div class="about_me_container clearfix mb-5">
 
-            <div class="about_me_description float-left col-md-6 pl-0 py-5 pr-5 relative left-100">
+            <div class="about_me_description float-left col-md-6 pl-0 py-5 pr-5 relative left-150">
                 <h4 class="">Who Am I</h4>
                 <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum enim vel turpis euismod,
                     eget dignissim elit egestas. Vivamus quis nisi vitae lorem bibendum sodales sed ut mauris.
@@ -15,7 +15,7 @@
                     Phasellus dapibus viverra tortor, vel blandit felis dapibus a.</p>
             </div>
 
-            <div id="js-skills" class="float-left col-md-6 pr-0 py-5 pl-5>
+            <div id="js-skills" class="float-left col-md-6 pr-0 py-5 pl-5">
                 <h4 class="">My Skills</h4>
                 <div class="clearfix" data-type="graphic">
                     <div class="skills clearfix w-75">
@@ -59,4 +59,6 @@
             </div>
         </div>
     </div>
+    <div class="corner corner_left"></div>
+    <div class="corner corner_right"></div>
 </section>

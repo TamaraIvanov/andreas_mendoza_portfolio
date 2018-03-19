@@ -1,4 +1,6 @@
-<section id="testimonial" class="clearfix">
+<section id="testimonial" class="clearfix position-relative">
+
+
     <div class=" w-1170">
         <div class="w-100">
             <h3 class="text-uppercase font-weight-bold text-center my-50">testimonial</h3>
@@ -141,4 +143,7 @@
             </div>
         </div>
     </div>
+    <div class="corner corner_left corner_upper"></div>
+    <div class="corner corner_right corner_upper"></div>
+
 </section>

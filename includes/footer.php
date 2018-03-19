@@ -1,4 +1,7 @@
-<footer id="footer" class="clearfix">
+<footer id="footer" class="clearfix position-relative">
+    <div class="corner corner_left corner_upper"></div>
+    <div class="corner corner_right corner_upper"></div>
+
     <div class="px-30 w-1170">
 
         <div class="w-100">
@@ -9,7 +12,7 @@
 
             <div class="contact_wrapper clearfix">
 
-                <div class="contact_content col-md-5 float-left my-5">
+                <div class="contact_content col-md-5 float-left mt-5">
                     <h4 class="position-relative left-100" >Contact Me</h4>
 
                     <form id="contact_form" class="py-60 clearfix">
@@ -21,18 +24,21 @@
                     </form>
                 </div>
 
-                <div id="find_me" class="col-md-5 float-right my-5 position-relative">
+                <div id="find_me" class="col-md-5 float-right mt-5 position-relative">
                     <h4>Find Me</h4>
 
-                    <address id="address" class="py-60">
-                        <span class="street d-block my-5">1313 Brickell Ave, Miami, FL</span>
-                        <a class="mail d-block" href="mailto:mendoza@gmail.com">mendoza@gmail.com</a>
+                    <address id="address" class="pt-100 m-0">
+                        <span class="street d-block my-3">1313 Brickell Ave, Miami, FL</span>
+                        <a class="mail d-block my-4" href="mailto:mendoza@gmail.com">mendoza@gmail.com</a>
                         <a class="tel d-block my-5" href="tel:+3 123-123-1234">+3 123-123-1234</a>
                     </address>
 
-                    <div class="social_network">
+                    <div class="social_network mt-3">
                         <ul class="clearfix">
-                            <li class="float-left"></li>
+                            <li class="float-left mr-3"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></li>
+                            <li class="float-left mr-3"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></li>
+                            <li class="float-left mr-3"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></li>
+                            <li class="float-left mr-3"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></li>
                         </ul>
                     </div>
                 </div>
@@ -51,3 +57,6 @@
         </div>
     </div>
 </footer>
+
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/main.js"></script>
