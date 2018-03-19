@@ -157,11 +157,21 @@
 
             if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop-200) {
                 $contactForm.find("#find_me").css({"top": 0});
-                $contactForm.find("input").css({"left": 0});
-                $contactForm.find(".contact_content h4").css({"left": 0});
-                $contactForm.find("button").css({"right": 0});
+                $contactForm.find(".contact_content").css({"left": 0});
             }
         }
+
+
+        /************  VALIDATION IN CONTACT FORM **************/
+
+
+        $("#js_contact_form").validate({
+            messages: {
+                email: {
+                    email: "Your email address must be in the format of name@domain.com"
+                }
+            }
+        });
 
 
 

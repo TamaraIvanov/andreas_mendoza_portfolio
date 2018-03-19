@@ -838,10 +838,13 @@ body {
 }
 .contact_content{
   overflow: hidden;
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
 }
-#contact_form,
+#js_contact_form,
 .comment_form {
-  input {
+  input,
+  textarea {
     background-color: transparent;
     border: none;
     border-bottom: 2px solid @light_blue;
@@ -856,14 +859,9 @@ body {
       color: @light_blue;
     }
   }
-  textarea {
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid @light_blue;
-    color: @light_blue;
-    &::placeholder {
-      color: @light_blue;
-    }
+
+  .error {
+    color: red;
   }
 }
 .js-send_msg {
@@ -882,8 +880,8 @@ body {
   }
 }
 #find_me {
-  transition: 3s ease;
-  -webkit-transition: 3s ease;
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
   top: -100%;
 }
 #address {

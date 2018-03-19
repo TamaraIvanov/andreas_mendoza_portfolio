@@ -776,9 +776,13 @@ body {
 }
 .contact_content {
   overflow: hidden;
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
 }
-#contact_form input,
-.comment_form input {
+#js_contact_form input,
+.comment_form input,
+#js_contact_form textarea,
+.comment_form textarea {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #33ffff;
@@ -787,24 +791,21 @@ body {
   font-size: 1.6em;
   transition: 1.5s ease;
 }
-#contact_form input::placeholder,
-.comment_form input::placeholder {
-  color: #33ffff;
-}
-#contact_form input::-webkit-input-placeholder,
-.comment_form input::-webkit-input-placeholder {
-  color: #33ffff;
-}
-#contact_form textarea,
-.comment_form textarea {
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid #33ffff;
-  color: #33ffff;
-}
-#contact_form textarea::placeholder,
+#js_contact_form input::placeholder,
+.comment_form input::placeholder,
+#js_contact_form textarea::placeholder,
 .comment_form textarea::placeholder {
   color: #33ffff;
+}
+#js_contact_form input::-webkit-input-placeholder,
+.comment_form input::-webkit-input-placeholder,
+#js_contact_form textarea::-webkit-input-placeholder,
+.comment_form textarea::-webkit-input-placeholder {
+  color: #33ffff;
+}
+#js_contact_form .error,
+.comment_form .error {
+  color: red;
 }
 .js-send_msg {
   color: #33ffff;
@@ -822,8 +823,8 @@ body {
   -ms-transform: scale(1.1);
 }
 #find_me {
-  transition: 3s ease;
-  -webkit-transition: 3s ease;
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
   top: -100%;
 }
 #address span,

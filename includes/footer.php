@@ -12,15 +12,21 @@
 
             <div class="contact_wrapper clearfix">
 
-                <div class="contact_content col-md-5 float-left mt-5">
-                    <h4 class="position-relative left-100" >Contact Me</h4>
+                <div class="contact_content col-md-5 float-left mt-5 left-150 position-relative">
+                    <h4 class=" ">Contact Me</h4>
 
-                    <form id="contact_form" class="py-60 clearfix">
-                        <input class="name w-100 my-4 left-150 relative" type="text" placeholder="Name"/>
-                        <input class="w-100 my-4 left-150 relative" type="text" placeholder="Email"/>
-                        <input class="w-100 my-4 left-150 relative" type="text" placeholder="Message"/>
+                    <form id="js_contact_form" class="py-60 clearfix">
+                        <input id="name" class="name w-100 my-4" name="name" type="text" placeholder="Name"
+                               data-rule-required="true" data-rule-lettersonly="true" data-msg-lettersonly="Only letters please !" data-msg-required="This field is required !"/>
 
-                        <button class="js-send_msg text-uppercase float-right py-1 px-4 right-100 relative" type="submit">submit</button>
+                        <input id="email" class="email w-100 my-4" name="email" type="text" placeholder="Email"
+                               data-rule-required="true" data-msg-required="This field is required !"
+                               data-rule-email="true" data-email-required="Please enter a valid email address !" />
+
+                        <textarea id="message" class="message w-100 my-4" name="message" type="text" placeholder="Message"
+                                  data-rule-required="true" data-rule-lettersonly="true" data-msg-required="This field is required !"></textarea>
+
+                        <button class="js-send_msg text-uppercase float-right py-1 px-4" type="submit">submit</button>
                     </form>
                 </div>
 
@@ -58,5 +64,3 @@
     </div>
 </footer>
 
-<script src="../js/jquery-3.1.1.js"></script>
-<script src="../js/main.js"></script>
