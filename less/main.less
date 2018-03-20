@@ -830,19 +830,20 @@ body {
     color: @light_blue;
   }
 }
-.contact_wrapper {
+.contact_container {
   overflow: hidden;
+  color: @light_blue;
   h4 {
-    color: @light_blue;
+
   }
 }
 .contact_content{
   overflow: hidden;
-  transition: 2s ease;
-  -webkit-transition: 2s ease;
+  transition: 1.2s ease;
+  -webkit-transition: 1.2s ease;
 }
 #js_contact_form,
-.comment_form {
+.js_comment_form {
   input,
   textarea {
     background-color: transparent;
@@ -880,9 +881,9 @@ body {
   }
 }
 #find_me {
-  transition: 2s ease;
-  -webkit-transition: 2s ease;
-  top: -100%;
+  transition: 1.2s ease;
+  -webkit-transition: 1.2s ease;
+  top: -1000px;
 }
 #address {
   span, a {
@@ -1097,8 +1098,9 @@ body {
     }
   }
 }
-.comment_form {
-  input {
+.js_comment_form {
+  input,
+  textarea {
     &::placeholder {
       color: @black;
       font-weight: bold;

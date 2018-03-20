@@ -151,10 +151,14 @@
                     </div>
                 </div>
 
-                <form class="comment_form">
-                    <input class="w-100 my-4" type="text" placeholder="Name"/>
-                    <input class="w-100 my-4" type="text" placeholder="Email"/>
-                    <input class="w-100 my-4" type="text" placeholder="Message"/>
+                <form class="js_comment_form">
+                    <input class="w-100 my-4" name="name" type="text" placeholder="Name"
+                           data-rule-required="true" data-rule-lettersonly="true" data-msg-lettersonly="Only letters please !" data-msg-required="This field is required !"/>
+                    <input class="w-100 my-4" name="email" type="text" placeholder="Email"
+                           data-rule-required="true" data-msg-required="This field is required !"
+                           data-rule-email="true" data-email-required="Please enter a valid email address !" />
+                    <textarea id="message" class="message w-100 my-4" name="message" type="text" placeholder="Message"
+                              data-rule-required="true"  data-msg-required="This field is required !"></textarea>
 
                     <button class="js-send_msg text-uppercase float-right py-1 px-4" type="submit">send</button>
                 </form>
@@ -167,7 +171,20 @@
 </div>
 
 <script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/jquery.validate.js"></script>
 <script src="../js/main.js"></script>
+<script>
+    /************  VALIDATION IN COMMENT FORM **************/
+
+
+    $(".js_comment_form").validate({
+        messages: {
+            email: {
+                email: "Your email address must be in the format of name@domain.com"
+            }
+        }
+    });
+</script>
 
 </body>
 </html>

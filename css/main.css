@@ -768,21 +768,19 @@ body {
 #footer h3 {
   color: #33ffff;
 }
-.contact_wrapper {
+.contact_container {
   overflow: hidden;
-}
-.contact_wrapper h4 {
   color: #33ffff;
 }
 .contact_content {
   overflow: hidden;
-  transition: 2s ease;
-  -webkit-transition: 2s ease;
+  transition: 1.2s ease;
+  -webkit-transition: 1.2s ease;
 }
 #js_contact_form input,
-.comment_form input,
+.js_comment_form input,
 #js_contact_form textarea,
-.comment_form textarea {
+.js_comment_form textarea {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #33ffff;
@@ -792,19 +790,19 @@ body {
   transition: 1.5s ease;
 }
 #js_contact_form input::placeholder,
-.comment_form input::placeholder,
+.js_comment_form input::placeholder,
 #js_contact_form textarea::placeholder,
-.comment_form textarea::placeholder {
+.js_comment_form textarea::placeholder {
   color: #33ffff;
 }
 #js_contact_form input::-webkit-input-placeholder,
-.comment_form input::-webkit-input-placeholder,
+.js_comment_form input::-webkit-input-placeholder,
 #js_contact_form textarea::-webkit-input-placeholder,
-.comment_form textarea::-webkit-input-placeholder {
+.js_comment_form textarea::-webkit-input-placeholder {
   color: #33ffff;
 }
 #js_contact_form .error,
-.comment_form .error {
+.js_comment_form .error {
   color: red;
 }
 .js-send_msg {
@@ -823,9 +821,9 @@ body {
   -ms-transform: scale(1.1);
 }
 #find_me {
-  transition: 2s ease;
-  -webkit-transition: 2s ease;
-  top: -100%;
+  transition: 1.2s ease;
+  -webkit-transition: 1.2s ease;
+  top: -1000px;
 }
 #address span,
 #address a {
@@ -1008,12 +1006,13 @@ body {
 .comment_content .reply_btn:hover {
   background-color: #818b9b;
 }
-.comment_form input::placeholder {
+.js_comment_form input::placeholder,
+.js_comment_form textarea::placeholder {
   color: #000;
   font-weight: bold;
   font-size: 1.2em;
 }
-.comment_form button {
+.js_comment_form button {
   color: #33ffff;
   font-size: 1.3em;
   margin-top: 60px;
@@ -1022,7 +1021,7 @@ body {
   -webkit-transition: ease-out 1s;
   background-color: #000;
 }
-.comment_form button:hover {
+.js_comment_form button:hover {
   border: 2px solid #fff;
   color: #fff;
   -webkit-transform: scale(1.3);

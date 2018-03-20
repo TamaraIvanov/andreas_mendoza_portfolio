@@ -8,12 +8,10 @@
             <h3 class="text-uppercase font-weight-bold text-center">get in touch</h3>
         </div>
 
-        <div class="contact_container row py-150">
+        <div class="contact_container clearfix py-150">
 
-            <div class="contact_wrapper clearfix">
-
-                <div class="contact_content col-md-5 float-left mt-5 left-150 position-relative">
-                    <h4 class=" ">Contact Me</h4>
+                <div id="contact_content" class="contact_content col-md-5 float-left mt-5 relative left-150">
+                    <h4>Contact Me</h4>
 
                     <form id="js_contact_form" class="py-60 clearfix">
                         <input id="name" class="name w-100 my-4" name="name" type="text" placeholder="Name"
@@ -24,13 +22,13 @@
                                data-rule-email="true" data-email-required="Please enter a valid email address !" />
 
                         <textarea id="message" class="message w-100 my-4" name="message" type="text" placeholder="Message"
-                                  data-rule-required="true" data-rule-lettersonly="true" data-msg-required="This field is required !"></textarea>
+                                  data-rule-required="true"  data-msg-required="This field is required !"></textarea>
 
                         <button class="js-send_msg text-uppercase float-right py-1 px-4" type="submit">submit</button>
                     </form>
                 </div>
 
-                <div id="find_me" class="col-md-5 float-right mt-5 position-relative">
+                <div id="find_me" class="col-md-5 float-right mt-5 relative">
                     <h4>Find Me</h4>
 
                     <address id="address" class="pt-100 m-0">
@@ -49,7 +47,7 @@
                     </div>
                 </div>
 
-            </div>
+
         </div>
 
         <p class="copyrights text-center w-100 float-left d-block mb-5">Copyrights © 2017 All Rights Reserved</p>

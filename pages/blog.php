@@ -1,10 +1,7 @@
-<html xmlns="http://www.w3.org/1999/html">
+
 <?php include "../includes/head.php";?>
 
 <body>
-
-
-
     <header id="header" class="blog_header py-5 position-relative">
         <div id="person" class="w-1170 px-30 clearfix">
 
@@ -142,7 +139,7 @@
 
 
     <script src="../js/jquery-3.1.1.js"></script>
-    <script src="../js/slick/slick.min.js"></script>
+    <script src="../js/jquery.validate.js"></script>
     <script src="../js/main.js"></script>
 
 </body>
