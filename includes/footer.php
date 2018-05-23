@@ -10,7 +10,7 @@
 
         <div class="contact_container clearfix py-150">
 
-                <div id="contact_content" class="contact_content col-md-5 float-left mt-5 relative left-150">
+                <div id="contact_content" class="contact_content col-12  col-md-5 float-left mt-5 relative left-150">
                     <h4>Contact Me</h4>
 
                     <form id="js_contact_form" class="py-60 clearfix">
@@ -28,7 +28,7 @@
                     </form>
                 </div>
 
-                <div id="find_me" class="col-md-5 float-right mt-5 relative">
+                <div id="find_me" class="col-12 col-md-5 float-right mt-5 relative">
                     <h4>Find Me</h4>
 
                     <address id="address" class="pt-100 m-0">
@@ -61,4 +61,6 @@
         </div>
     </div>
 </footer>
+
+
 

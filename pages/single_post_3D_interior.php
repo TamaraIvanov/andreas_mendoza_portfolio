@@ -16,11 +16,11 @@
 
                 <nav id="nav_menu" class="js-drop-list js-main-drop-list py-20 float-right">
                     <ul class="float-right">
-                        <li class="float-left text-uppercase font-weight-bold mx-2 px-2"><a href="../pages/index.php">home</a></li>
+                        <li class="float-left text-uppercase font-weight-bold mx-2 px-2"><a href="../index.php">home</a></li>
                         <li class="float-left text-uppercase font-weight-bold mx-2 px-2" data-id="about_me">about me</li>
                         <li class="float-left text-uppercase font-weight-bold mx-2 px-2" data-id="my_work">my work</li>
                         <li class="float-left text-uppercase font-weight-bold mx-2 px-2" data-id="services">services</li>
-                        <li class="float-left text-uppercase font-weight-bold mx-2 px-2"><a href="../pages/blog.php">blog</a></li>
+                        <li class="float-left text-uppercase font-weight-bold mx-2 px-2"><a href="blog.php">blog</a></li>
                         <li class="float-left text-uppercase font-weight-bold mx-2 px-2" data-id="footer">contact</li>
                     </ul>
                 </nav>

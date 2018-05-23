@@ -14,7 +14,7 @@
 
                     <div class="client_img relative clearfix">
                         <div class="client float-left clearfix p-0">
-                            <img class="" src="../img/10-Testimonial-1.jpg">
+                            <img class="" src="img/10-Testimonial-1.jpg">
 
                                 <div class="half_border border_half_top absolute"></div>
                                 <div class="half_border border_half_left absolute"></div>
@@ -36,7 +36,7 @@
 
                     <div class="client_img relative clearfix">
                         <div class="client float-left clearfix p-0">
-                            <img class="" src="../img/11-Testimonial-2.jpg">
+                            <img class="" src="img/11-Testimonial-2.jpg">
                         </div>
 
                         <div class="half_border border_half_top absolute"></div>
@@ -59,7 +59,7 @@
 
                     <div class="client_img relative clearfix">
                         <div class="client float-left clearfix p-0">
-                            <img class="" src="../img/12-Testimonial-3.jpg">
+                            <img class="" src="img/12-Testimonial-3.jpg">
                         </div>
 
                         <div class="half_border border_half_top absolute"></div>
@@ -80,7 +80,7 @@
 
                     <div class="client_img relative clearfix">
                         <div class="client float-left clearfix p-0 relative">
-                            <img class="" src="../img/10-Testimonial-1.jpg">
+                            <img class="" src="img/10-Testimonial-1.jpg">
 
                             <div class="half_border border_half_top absolute"></div>
                             <div class="half_border border_half_left absolute"></div>
@@ -102,7 +102,7 @@
 
                     <div class="client_img relative clearfix">
                         <div class="client  float-left clearfix p-0">
-                            <img class="" src="../img/11-Testimonial-2.jpg">
+                            <img class="" src="img/11-Testimonial-2.jpg">
                         </div>
 
                         <div class="half_border border_half_top absolute"></div>
@@ -124,7 +124,7 @@
 
                     <div class="client_img relative clearfix">
                         <div class="client  float-left clearfix p-0">
-                            <img class="" src="../img/12-Testimonial-3.jpg">
+                            <img class="" src="img/12-Testimonial-3.jpg">
                         </div>
 
                         <div class="half_border border_half_top absolute"></div>

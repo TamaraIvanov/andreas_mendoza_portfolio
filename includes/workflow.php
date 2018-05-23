@@ -19,7 +19,7 @@
                             <h5 class="text-center">Client's Desire</h5>
                             <div class="hexagon hex_wrapper relative my-30">
                                 <div class="hexagon hex_content relative">
-                                    <img class="w-100 relative" src="../img/7-Workflow-1.jpg">
+                                    <img class="w-100 relative" src="img/7-Workflow-1.jpg">
                                     <div class="hexagon hex_rotate absolute w-100 top0 left0">
                                         <span>Client's Desire</span>
                                     </div>
@@ -59,7 +59,7 @@
                             <h5 class="text-center">Project Plan</h5>
                             <div class="hexagon hex_wrapper relative my-30">
                                 <div class="hexagon hex_content relative">
-                                    <img class="w-100 relative" src="../img/7-Workflow-2.jpg">
+                                    <img class="w-100 relative" src="img/7-Workflow-2.jpg">
                                     <div class="hexagon hex_rotate absolute w-100 top0 left0">
                                         <span>Project Plan</span>
                                     </div>
@@ -99,7 +99,7 @@
                             <h5 class="text-center">Project Work</h5>
                             <div class="hexagon hex_wrapper relative my-30">
                                 <div class="hexagon hex_content relative">
-                                    <img class="w-100 relative" src="../img/8-Workflow-3.jpg">
+                                    <img class="w-100 relative" src="img/8-Workflow-3.jpg">
                                     <div class="hexagon hex_rotate absolute w-100 top0 left0">
                                         <span>Project Work</span>
                                     </div>
@@ -139,7 +139,7 @@
                             <h5 class="text-center">Project Launch</h5>
                             <div class="hexagon hex_wrapper relative my-30">
                                 <div class="hexagon hex_content relative">
-                                    <img class="w-100 relative" src="../img/9-Workflow-4.jpg">
+                                    <img class="w-100 relative" src="img/9-Workflow-4.jpg">
                                     <div class="hexagon hex_rotate absolute w-100 top0 left0">
                                         <span>Project Launch</span>
                                     </div>

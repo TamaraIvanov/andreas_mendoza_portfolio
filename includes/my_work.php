@@ -21,14 +21,14 @@
                 <div class="relative clearfix">
                     <div class="hexagon hex_wrapper hex_left float-left col-lg-6 relative">
                         <div class="hexagon hex_content relative">
-                            <img class="w-100" src="../img/2-My-work-picture-1.jpg">
+                            <img class="w-100" src="img/2-My-work-picture-1.jpg">
                             <div class="hexagon hex_hover absolute w-100 top0 left0"></div>
                         </div>
                     </div>
 
                     <div class="hexagon hex_wrapper hex_right float-left col-lg-6 relative">
                         <div class="hexagon hex_content relative">
-                            <img class="w-100" src="../img/3-My-work-picture-2.jpg">
+                            <img class="w-100" src="img/3-My-work-picture-2.jpg">
                             <div class="hexagon hex_hover absolute w-100 top0 left0"></div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
 
                     <div class="hexagon hex_wrapper hex_center float-left col-lg-6">
                         <div class="hexagon hex_content">
-                            <img class="w-100" src="../img/4-My-work-picture-3.jpg">
+                            <img class="w-100" src="img/4-My-work-picture-3.jpg">
                             <div class="hexagon hex_hover absolute w-100 top0 left0"></div>
                         </div>
                     </div>
@@ -45,14 +45,14 @@
                 <div class="relative clearfix">
                     <div class="hexagon hex_wrapper hex_left float-left col-lg-6 relative">
                         <div class="hexagon hex_content relative">
-                            <img class="w-100" src="../img/2-My-work-picture-1.jpg">
+                            <img class="w-100" src="img/2-My-work-picture-1.jpg">
                             <div class="hexagon hex_hover absolute w-100 top0 left0"></div>
                         </div>
                     </div>
 
                     <div class="hexagon hex_wrapper hex_right float-left col-lg-6 relative ">
                         <div class="hexagon hex_content relative">
-                            <img class="w-100" src="../img/3-My-work-picture-2.jpg">
+                            <img class="w-100" src="img/3-My-work-picture-2.jpg">
                             <div class="hexagon hex_hover absolute w-100 top0 left0"></div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
 
                     <div class="hexagon hex_wrapper hex_center float-left col-lg-6">
                         <div class="hexagon hex_content">
-                            <img  class="w-100" src="../img/4-My-work-picture-3.jpg">
+                            <img  class="w-100" src="img/4-My-work-picture-3.jpg">
                             <div class="hexagon hex_hover absolute w-100 top0 left0"></div>
                         </div>
                     </div>

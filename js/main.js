@@ -11,6 +11,7 @@
 
 
 
+
         /********  RESPONSIVE CHANGES  ********/
 
         var windowSize = $(window).width();
@@ -52,7 +53,6 @@
             if(windowSize <= 576) {
                 dropList.slideUp(400);
             }
-
             $(this).next(".js-drop-list").slideToggle(500);
         });
 
@@ -105,13 +105,13 @@
         /************  EFFECTS IN FOOTER **************/
 
         function contactFadeEffect(windowTop, windowBottom) {
-            var contactForm = $("#footer").find(".contact_container");
+            var contactForm = $("#footer").find("#contact_content");
             var contactFormTop = contactForm.offset().top;
             var contactFormBottom = contactFormTop + contactForm.height() + $window.outerHeight()/100;
 
-            if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop-100) {
-                contactForm.find(".contact_content").css({"left": 0});
-                contactForm.find("#find_me").css({"top": 0});
+            if (contactFormBottom  <= windowBottom && contactFormTop >= windowTop-500) {
+                contactForm.css({"left": 0});
+                contactForm.siblings("#find_me").css({"top": 0});
             }
         }
 
